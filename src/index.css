@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(178, 220, 233) !important; */
+    background-color: rgb(247, 246, 245) !important;
+}
+
+.imgsize,.card img{
+    height: 150px;
+}
+.card-body,.card{
+    min-height: 100px;
+}
+.card{
+    /* -webkit-box-shadow: 8px 8px 24px 0px rgb(245, 140, 158);
+    -moz-box-shadow: 8px 8px 24px 0px rgb(253, 140, 159);
+    box-shadow: 8px 8px 24px 0px rgb(250, 120, 153); */
+    width: 100%;
+}
+.Category-card{
+  background-color: rgb(31, 26, 26);
+  font-family: 'Bacasime Antique', serif;
+    font-weight: 900;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white !important;
+}
+.Category-heading,.card-title{
+    font-family: 'Bacasime Antique', serif !important;
+    font-weight: 900 !important;
+    color: rgb(90, 12, 12);
+    /* color: #faf6f6 !important; */
+   
+}
+.Category-heading{
+  color: black;
+}
+
+
+
+.category-para{
+    color: rgb(24, 23, 23);
+     font-family: 'Bacasime Antique', serif;
+     font-weight: 900;
+}
+.card{
+    background-color: rgb(244, 244, 248)  !important;
+    color: rgb(26, 24, 24) !important;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 900;
+}
+.navigat{
+    background-color:rgb(19, 18, 18) ;
+    font-weight: 800;
+}
+.loginHeight{
+    min-height: 85vh !important;
+}
+.sideBar {
+    height: 35.8vw;
+    font-size: 1.2vw;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+   .sideBar:hover {
+    overflow: auto;
+  }
+  
+  /* Customize scrollbar appearance */
+  .sideBar::-webkit-scrollbar {
+    width: 8px; /* Adjust the width of the scrollbar */
+  }
+  
+  .sideBar::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+  }
+  
+  .sideBar::-webkit-scrollbar-thumb {
+    background: #888; /* Thumb color */
+  }
+  
+  /* Show scrollbar only when scrolling */
+  .sideBar::-webkit-scrollbar-thumb:vertical {
+    transition: background-color 0.3s;
+  }
+  
+  .sideBar::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: #555; /* Thumb color on hover */
+  }
+  .card-title{
+    margin: 0 !important;
+  }
+  .card-text{
+    line-height: 1.2;
+  }
+  
+.list-group-item{
+    background-color: rgb(244, 247, 248) !important;
+    color: rgb(20, 18, 18) !important;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.logo-size{
+    font-weight: bolder !important;
+    font-size: 150% !important;
+}
+.catimg{
+    width: 100%;
+    height: 70vh;
+}
+.catheading{
+    color: rgb(17, 16, 16);
+    font-family: 'Lilita One', cursive;
+}
+.catpara{
+    color: rgb(12, 11, 11);
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 900;
+    
+} 
+.fs-5{
+    background-color:rgb(10, 11, 12);
+    margin-top: 15px;
+    display: block;
+}    
+@media only screen and (max-width: 600px) {
+ .catimg{
+  height: 30vh;
+ }
+}
+.logimg{
+  background-image: url('https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.sigimg{
+  background-image: url('https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+body{
+  background-image: url('https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 450px) {
+  .card-title{
+    font-size: 15px !important;
+  }
+  .card-text{
+    font-size: 12px;
+  }
+  .sideBar{
+    display: none;
+  }
+.sideBar,.col-10{
+    width: 100% !important;
+    height: 33vh;
+  }
+  .navibar {
+    font-size: 18px !important;
+  }
+  .form-text{
+    font-size: 5px;
+  }
+  .loginHeight{
+    height: 90vh;
+  }
+}
